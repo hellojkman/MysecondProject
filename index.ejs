@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/vendor/bootstrap/css/bootstrap.css'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+<style>
+	.mymap{
+		width : 1400px;
+		height : 400px;
+		display : block;
+		margin : 0 auto;
+		border: 1px solid black;
+	}
+
+	footer {
+        height: 60px;
+        position: fixed;
+        left: 0;
+        width: 100%;
+        bottom: 0;
+        background: gray;
+        color: white;
+    }
+	body{
+
+	padding-top : 0;
+	padding-bottom : 0;
+	margin : 0 auto;
+	}
+
+</style>
+
+  <body>
+	  <div id="map" class="mymap" ></div>
+    <!-- 맵 -->
+
+    <script type="text/javascript"
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7a6229edc0399c43afa28eb10d775926"></script>
+    <script>
+        var container = document.getElementById('map');
+        var options = {
+            center: new kakao.maps.LatLng(36.35, 127.38),
+            level: 13
+        };
+
+        var map = new kakao.maps.Map(container, options);
+        // var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+        // 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤을 생성합니다
+        var mapTypeControl = new kakao.maps.MapTypeControl();
+
+        // 지도 타입 컨트롤을 지도에 표시합니다
+        map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
+
+        function getInfo() {
+            // 지도의 현재 중심좌표를 얻어옵니다
+            var center = map.getCenter();
+
+            // 지도의 현재 레벨을 얻어옵니다
+            var level = map.getLevel();
+
+            // 지도타입을 얻어옵니다
+            var mapTypeId = map.getMapTypeId();
+
+            // 지도의 현재 영역을 얻어옵니다
+            var bounds = map.getBounds();
+
+            // 영역의 남서쪽 좌표를 얻어옵니다
+            var swLatLng = bounds.getSouthWest();
+
+            // 영역의 북동쪽 좌표를 얻어옵니다
+            var neLatLng = bounds.getNorthEast();
+
+            // 영역정보를 문자열로 얻어옵니다. ((남,서), (북,동)) 형식입니다
+            var boundsStr = bounds.toString();
+
+
+            var message = '지도 중심좌표는 위도 ' + center.getLat() + ', <br>';
+            message += '경도 ' + center.getLng() + ' 이고 <br>';
+            message += '지도 레벨은 ' + level + ' 입니다 <br> <br>';
+            message += '지도 타입은 ' + mapTypeId + ' 이고 <br> ';
+            message += '지도의 남서쪽 좌표는 ' + swLatLng.getLat() + ', ' + swLatLng.getLng() + ' 이고 <br>';
+            message += '북동쪽 좌표는 ' + neLatLng.getLat() + ', ' + neLatLng.getLng() + ' 입니다';
+        }
+
+
+        //컨트롤러
+        map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
+
+        // 지도 확대 축소를 제어할 수 있는  줌 컨트롤을 생성합니다
+        var zoomControl = new kakao.maps.ZoomControl();
+        map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+
+	//위도, 경도
+        var positions = [
+            //부산청
+            {
+                content: '<div>부산항신항중앙C호등부표</div>',
+                latlng: new kakao.maps.LatLng(35.024, 128.7885)
+            },
+            {
+                content: '<div>나무섬등대</div>',
+                latlng: new kakao.maps.LatLng(34.979666667, 128.9895)
+            },
+            {
+                content: '<div>오륙도등대</div>',
+                latlng: new kakao.maps.LatLng(35.091333333, 129.127)
+            },
+            {
+                content: '<div>가덕도등대</div>',
+                latlng: new kakao.maps.LatLng(34.9895, 128.829166667)
+            },
+            {
+                content: '<div>신항유도등부표(랜비)</div>',
+                latlng: new kakao.maps.LatLng(34.966666667, 129.131)
+            },
+            {
+                content: '<div>부산항유도등부표(랜비)</div>',
+                latlng: new kakao.maps.LatLng(35.0665, 129.127)
+            },
+            {
+                content: '<div>남형제도등표</div>',
+                latlng: new kakao.maps.LatLng(34.885166667, 128.95)
+            },
+            {
+                content: '<div>남항동방파제등대</div>',
+                latlng: new kakao.maps.LatLng(35.084833333, 129.033166667)
+            },
+            {
+                content: '<div>송정리등표</div>',
+                latlng: new kakao.maps.LatLng(35.169166667, 129.2175)
+            },
+            {
+                content: '<div>감천항유도등부표(랜비)</div>',
+                latlng: new kakao.maps.LatLng(35.032, 129.022166667)
+            },
+
+            //인천청
+            {
+                content: '<div>팔미도등대</div>',
+                latlng: new kakao.maps.LatLng(37.3583333333, 126.5108333333)
+            },
+            {
+                content: '<div>부도등대</div>',
+                latlng: new kakao.maps.LatLng(37.14955, 126.3480833333)
+            },
+            {
+                content: '<div>선미도등대</div>',
+                latlng: new kakao.maps.LatLng(37.2872222222, 126.0777777778)
+            },
+            {
+                content: '<div>소청도등대</div>',
+                latlng: new kakao.maps.LatLng(37.7608333333, 124.7286111111)
+            },
+            {
+                content: '<div>목덕도등대</div>',
+                latlng: new kakao.maps.LatLng(36.9286111111, 125.7869444444)
+            },
+            {
+                content: '<div>인천항석탄부두A호등대</div>',
+                latlng: new kakao.maps.LatLng(37.4383333333, 126.5869444444)
+            },
+            {
+                content: '<div>소야도등대</div>',
+                latlng: new kakao.maps.LatLng(37.2083333333, 126.1938888889)
+            },
+            {
+                content: '<div>소연평도등대</div>',
+                latlng: new kakao.maps.LatLng(37.6044444444, 125.7177777778)
+            },
+            {
+                content: '<div>서포리남방등표</div>',
+                latlng: new kakao.maps.LatLng(37.2136111111, 126.0916666667)
+            },
+            {
+                content: '<div>북장자서등표</div>',
+                latlng: new kakao.maps.LatLng(37.3294444444, 126.4777777778)
+            },
+            {
+                content: '<div>초치암등표</div>',
+                latlng: new kakao.maps.LatLng(37.3280555556, 126.2227777778)
+            },
+            {
+                content: '<div>민어탄등표</div>',
+                latlng: new kakao.maps.LatLng(37.125, 125.9252777778)
+            },
+            {
+                content: '<div>고식이등표</div>',
+                latlng: new kakao.maps.LatLng(37.485, 126.3030556)
+            },
+
+            //여수청
+            {
+                content: '<div>여초등표</div>',
+                latlng: new kakao.maps.LatLng(34.688, 127.6990555556)
+            },
+            {
+                content: '<div>중결도등대</div>',
+                latlng: new kakao.maps.LatLng(34.31375, 127.2403055556)
+            },
+            {
+                content: '<div>광양항등표</div>',
+                latlng: new kakao.maps.LatLng(34.8819444444, 127.7597222222)
+            },
+            {
+                content: '<div>여수해만중앙A호유도등부표</div>',
+                latlng: new kakao.maps.LatLng(34.5947222222, 127.9452777778)
+            },
+
+            //울산청
+            {
+                content: '<div>울산항등부표</div>',
+                latlng: new kakao.maps.LatLng(35.363666667, 129.436472222)
+            },
+
+            //대산청
+		{
+                content: '<div>대산항제2항로제3호등부표</div>',
+                latlng: new kakao.maps.LatLng(37.0416666667, 126.3433333333)
+            },
+            {
+                content: '<div>신도타서등표</div>',
+                latlng: new kakao.maps.LatLng(36.895, 126.15)
+            },
+            {
+                content: '<div>옹도등대</div>',
+                latlng: new kakao.maps.LatLng(36.6466666667, 126.0083333333)
+            },
+            {
+                content: '<div>소녀암등표</div>',
+                latlng: new kakao.maps.LatLng(36.32, 126.4733333333)
+            },
+
+            //평택청
+            {
+                content: '<div>입파도등대</div>',
+                latlng: new kakao.maps.LatLng(37.1085611111, 126.539675)
+            },
+            {
+                content: '<div>무당서등표</div>',
+                latlng: new kakao.maps.LatLng(37.1561722222, 126.4162888889)
+            },
+
+            //목포청
+            {
+                content: '<div>(기상)외달도등표</div>',
+                latlng: new kakao.maps.LatLng(34.777861111, 126.288611111)
+            },
+            {
+                content: '<div>(기상)매물도등대</div>',
+                latlng: new kakao.maps.LatLng(34.522435, 125.685892)
+            },
+            {
+                content: '<div>(기상)대노록도등대</div>',
+                latlng: new kakao.maps.LatLng(35.103018, 125.987915)
+            },
+            {
+                content: '<div>(기상)홍도등대</div>',
+                latlng: new kakao.maps.LatLng(34.714297, 125.201797)
+            },
+            {
+                content: '<div>(기상)가거도등대</div>',
+                latlng: new kakao.maps.LatLng(34.095377, 125.09857)
+            },
+            {
+                content: '<div>(기상)계마항방파제등대</div>',
+                latlng: new kakao.maps.LatLng(35.39025, 126.403055556)
+            },
+            {
+                content: '<div>(기상)우세도등대</div>',
+                latlng: new kakao.maps.LatLng(34.791416667, 125.908)
+            },
+
+            //군산청
+            {
+                content: '<div>비응항서방파제남단등대</div>',
+                latlng: new kakao.maps.LatLng(35.9335269444, 126.52747)
+            },
+            {
+                content: '<div>군산연도등대</div>',
+                latlng: new kakao.maps.LatLng(36.08113, 126.43597)
+            },
+            {
+                content: '<div>상왕등도등대</div>',
+                latlng: new kakao.maps.LatLng(35.6621111111, 126.10705)
+            },
+            {
+                content: '<div>군산흑도등표</div>',
+                latlng: new kakao.maps.LatLng(35.82619, 126.37216)
+            },
+            {
+                content: '<div>흑서등표</div>',
+                latlng: new kakao.maps.LatLng(35.61905556, 126.3632778)
+            },
+
+            //마산청
+            {
+                content: '<div>흑암등표</div>',
+                latlng: new kakao.maps.LatLng(35.0402222222, 128.6101944444)
+            },
+            {
+                content: '<div>고암등대</div>',
+                latlng: new kakao.maps.LatLng(34.498, 128.4763333333)
+            },
+            {
+                content: '<div>견내량등표</div>',
+                latlng: new kakao.maps.LatLng(34.885, 128.4736666667)
+            },
+            {
+                content: '<div>고도등표</div>',
+                latlng: new kakao.maps.LatLng(34.68, 128.0633333333)
+            },
+
+	//포항청
+            {
+                content: '<div>도동등대</div>',
+                latlng: new kakao.maps.LatLng(37.487, 130.9194166667)
+            },
+            {
+                content: '<div>영일만항분리항로등부표(랜비)</div>',
+                latlng: new kakao.maps.LatLng(36.0782777778, 129.4766666667)
+            },
+
+            //동해청
+            {
+                content: '<div>동해항남방파제등대</div>',
+                latlng: new kakao.maps.LatLng(37.49665, 129.144667)
+            },
+            {
+                content: '<div>주문진항동방파제등대</div>',
+                latlng: new kakao.maps.LatLng(37.885889, 128.834711)
+            },
+            {
+                content: '<div>임원항방파제등대</div>',
+                latlng: new kakao.maps.LatLng(37.224858, 129.345192)
+            },
+
+            //제주단
+            {
+                content: '<div>중뢰등표</div>',
+                latlng: new kakao.maps.LatLng(33.797668457, 126.3225021362)
+            },
+            {
+                content: '<div>김녕항서방파제등대</div>',
+                latlng: new kakao.maps.LatLng(33.5683288574, 126.7457962036)
+            },
+            {
+                content: '<div>우도등표</div>',
+                latlng: new kakao.maps.LatLng(33.5144500732, 126.9721984863)
+            },
+            {
+                content: '<div>방서등대</div>',
+                latlng: new kakao.maps.LatLng(33.9215316772, 126.399597168)
+            },
+            {
+                content: '<div>개민포등대</div>',
+                latlng: new kakao.maps.LatLng(33.3199501038, 126.8479003906)
+            },
+
+            //진도소
+            {
+                content: '<div>완도항 유도등부표(기)</div>',
+                latlng: new kakao.maps.LatLng(34.2535, 126.808294)
+            },
+            {
+                content: '<div>황제도등대(기)</div>',
+                latlng: new kakao.maps.LatLng(34.1933, 127.08)
+            },
+            {
+                content: '<div>횡간도등대(기)</div>',
+                latlng: new kakao.maps.LatLng(34.250497, 126.6128)
+            },
+            {
+                content: '<div>여서도등대(기)</div>',
+                latlng: new kakao.maps.LatLng(33.9877, 126.918294)
+            },
+            {
+                content: '<div>명량수도조류신호표지</div>',
+                latlng: new kakao.maps.LatLng(34.57191667, 126.30525)
+            },
+            {
+                content: '<div>하조도등대(기)</div>',
+                latlng: new kakao.maps.LatLng(34.3111, 126.087797)
+            },
+            {
+                content: '<div>어룡도등대(기)</div>',
+                latlng: new kakao.maps.LatLng(34.2868, 126.473197)
+            },
+            {
+                content: '<div>장죽수도조류신호표지</div>',
+                latlng: new kakao.maps.LatLng(34.31472222, 126.0905556)
+            },
+            {
+                content: '<div>녹도등대(기)</div>',
+                latlng: new kakao.maps.LatLng(34.5593969444, 126.3205030556)
+            },
+        ];
+
+        for (var i = 0; i < positions.length; i++) {
+            // 마커를 생성합니다
+            var marker = new kakao.maps.Marker({
+                map: map, // 마커를 표시할 지도
+                position: positions[i].latlng // 마커의 위치
+            });
+
+            // 마커에 표시할 인포윈도우를 생성합니다
+            var infowindow = new kakao.maps.InfoWindow({
+                content: positions[i].content // 인포윈도우에 표시할 내용
+            });
+
+            // 마커에 mouseover 이벤트와 mouseout 이벤트를 등록합니다
+            // 이벤트 리스너로는 클로저를 만들어 등록합니다
+            // for문에서 클로저를 만들어 주지 않으면 마지막 마커에만 이벤트가 등록됩니다
+            kakao.maps.event.addListener(marker, 'mouseover', makeOverListener(map, marker, infowindow));
+            kakao.maps.event.addListener(marker, 'mouseout', makeOutListener(infowindow));
+        }
+
+        // 인포윈도우를 표시하는 클로저를 만드는 함수입니다
+        function makeOverListener(map, marker, infowindow) {
+            return function () {
+                infowindow.open(map, marker);
+            };
+        }
+
+        // 인포윈도우를 닫는 클로저를 만드는 함수입니다
+        function makeOutListener(infowindow) {
+            return function () {
+                infowindow.close();
+            };
+        }
+    </script>
+
+	   <select id='select1' onchange="change(this)">
+		   <option>청을선택하시오</option> 
+		   <option value="1">부산청</option>
+		    <option value="2">인천청</option>
+		    <option value='3'>여수청</option>
+	    </select>
+
+	    <select id='select2'>
+		    <option>지점을 선택하시오</option>
+	    </select>
+	<script>
+		function change(e){
+			var s_a = ["부산항신항중앙C호등부표", "나무섬등대", "오륙도등대", "가덕도등대", "신항유도등부표(랜비)", "부산항유도등부표(랜비)", "남형제도등표", "남항동방파제등대", "송정리등표", "감천항유도등부표(랜비)"];
+			var s_b = ["팔미도등대", "부도등대", "선미도등대", "소청도등대", "목덕도등대", "인천항석탄부두A호등대", "소야도등대", "소연평도등대", "서포리남방등표", "북장자서등표", "초치암등표", "민어탄등표", "고식이등표"];
+			var s_c = ["여초등표", "중결도등대"]
+			var target = document.getElementById("select2");
+
+			if(e.value == "1") var d = s_a;
+			else if(e.value == "2") var d = s_b;
+			else if(e.value == '3') var d = s_c;
+
+			target.options.length = 0;
+
+			for(x in d){
+				var opt = document.createElement("option");
+				opt.value = d[x];
+				opt.innerHTML = d[x];
+				target.appendChild(opt);
+			}
+		}
+	</script>
+    <footer style="text-align: center;">
+	    <p>@ 2022 morpheus</p>
+        developer - Front : 오승근, Hybrid : 유동연, Back : 김정균
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1693 @@
+{
+	"result": {
+		"recordset": [
+			{
+				"MMAF_NM": "부산청",
+				"HUMIDITY": 37,
+				"SURFACE_CURR_SPEED": 0.242,
+				"AIR_TEMPERATURE": 1.9,
+				"LONGITUDE": 128.7885,
+				"AIR_PRESSURE": 1016.9,
+				"MMSI_NM": "부산항신항중앙C호등부표",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "101",
+				"MMSI_CODE": "994401584",
+				"WIND_DIRECT": 340,
+				"WATER_TEMPER": 12.2,
+				"SURFACE_CURR_DRC": 293,
+				"LATITUDE": 35.024,
+				"WIND_SPEED": 5.24
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "나무섬등대",
+				"MMAF_NM": "부산청",
+				"HUMIDITY": 19,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "101",
+				"AIR_TEMPERATURE": 0,
+				"MMSI_CODE": "994401587",
+				"LONGITUDE": 128.9895,
+				"WIND_DIRECT": 339,
+				"AIR_PRESSURE": 1008.6,
+				"LATITUDE": 34.979666667,
+				"WIND_SPEED": 7.5
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "부산항신항다목적부두",
+				"HORIZON_VISIBL": 20,
+				"MMAF_NM": "부산청",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "101",
+				"MMSI_CODE": "220681668",
+				"LONGITUDE": 128.8343889,
+				"LATITUDE": 35.07458333
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "부산항신항소형선부두등대",
+				"HORIZON_VISIBL": 99999,
+				"MMAF_NM": "부산청",
+				"DATETIME": "20000101000000",
+				"MMAF_CODE": "101",
+				"MMSI_CODE": "220681671",
+				"LONGITUDE": 128.7815,
+				"LATITUDE": 35.07763889
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "오륙도등대",
+				"MMAF_NM": "부산청",
+				"HUMIDITY": 24,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "101",
+				"AIR_TEMPERATURE": -0.1,
+				"MMSI_CODE": "994401578",
+				"LONGITUDE": 129.127,
+				"WIND_DIRECT": 303,
+				"AIR_PRESSURE": 1011.2,
+				"LATITUDE": 35.091333333,
+				"WIND_SPEED": 9.71
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "가덕도등대",
+				"MMAF_NM": "부산청",
+				"HUMIDITY": 25,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "101",
+				"AIR_TEMPERATURE": 0.1,
+				"MMSI_CODE": "994401588",
+				"LONGITUDE": 128.829166667,
+				"WIND_DIRECT": 298,
+				"AIR_PRESSURE": 1004.2,
+				"LATITUDE": 34.9895,
+				"WIND_SPEED": 9.61
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMAF_NM": "부산청",
+				"HUMIDITY": 29,
+				"SURFACE_CURR_SPEED": 0.008,
+				"AIR_TEMPERATURE": 1,
+				"LONGITUDE": 128.813,
+				"AIR_PRESSURE": 1016.1,
+				"MMSI_NM": "신항유도등부표(랜비)",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "101",
+				"MMSI_CODE": "994401583",
+				"WIND_DIRECT": 155,
+				"WATER_TEMPER": 13.9,
+				"SURFACE_CURR_DRC": 296,
+				"LATITUDE": 34.966666667,
+				"WIND_SPEED": 10.7
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMAF_NM": "부산청",
+				"HUMIDITY": 99999,
+				"SURFACE_CURR_SPEED": 99999,
+				"AIR_TEMPERATURE": 99999,
+				"LONGITUDE": 129.131,
+				"AIR_PRESSURE": 99999,
+				"MMSI_NM": "부산항유도등부표(랜비)",
+				"DATETIME": "20000101000000",
+				"MMAF_CODE": "101",
+				"MMSI_CODE": "994401597",
+				"WIND_DIRECT": 99999,
+				"WATER_TEMPER": 99999,
+				"SALINITY": 99999,
+				"SURFACE_CURR_DRC": 99999,
+				"LATITUDE": 35.0665,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "남형제도등표",
+				"MMAF_NM": "부산청",
+				"HUMIDITY": 25,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "101",
+				"AIR_TEMPERATURE": 1.1,
+				"MMSI_CODE": "994401594",
+				"LONGITUDE": 128.95,
+				"WIND_DIRECT": 258,
+				"AIR_PRESSURE": 1013.4,
+				"LATITUDE": 34.885166667,
+				"WIND_SPEED": 0.4
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "남항동방파제등대",
+				"MMAF_NM": "부산청",
+				"HUMIDITY": 99999,
+				"DATETIME": "20000101000000",
+				"MMAF_CODE": "101",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "220681651",
+				"LONGITUDE": 129.033166667,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 35.084833333,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "송정리등표",
+				"MMAF_NM": "부산청",
+				"HUMIDITY": 99999,
+				"DATETIME": "20000101000000",
+				"MMAF_CODE": "101",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "220681654",
+				"LONGITUDE": 129.2175,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 35.169166667,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "감천항유도등부표(랜비)",
+				"MMAF_NM": "부산청",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "101",
+				"MMSI_CODE": "994401579",
+				"LONGITUDE": 129.022166667,
+				"LATITUDE": 35.032
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "인천항동수도12호등부표",
+				"MMAF_NM": "인천청",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"SURFACE_CURR_SPEED": 0.201,
+				"MMSI_CODE": "994401000",
+				"LONGITUDE": 126.4197219444,
+				"WATER_TEMPER": 5.3,
+				"SURFACE_CURR_DRC": 203,
+				"LATITUDE": 37.21833333
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"status": "ERROR",
+		"message": "mmsi 가 올바르지 않습니다. (10)",
+		"recordset": null
+	}
+}{
+	"result": {
+		"status": "ERROR",
+		"message": "mmsi 가 올바르지 않습니다. (20)",
+		"recordset": null
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "인천항서수도5호등부표",
+				"MMAF_NM": "인천청",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"SURFACE_CURR_SPEED": 0.603,
+				"MMSI_CODE": "994401001",
+				"LONGITUDE": 126.2372222,
+				"WATER_TEMPER": 6.1,
+				"SURFACE_CURR_DRC": 207,
+				"LATITUDE": 37.2780555
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "팔미도등대",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 45,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"AIR_TEMPERATURE": -6.6,
+				"MMSI_CODE": "994401013",
+				"LONGITUDE": 126.5108333333,
+				"WIND_DIRECT": 327,
+				"AIR_PRESSURE": 1012,
+				"LATITUDE": 37.3583333333,
+				"WIND_SPEED": 10.8
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "부도등대",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 0,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"AIR_TEMPERATURE": 0,
+				"MMSI_CODE": "994401014",
+				"LONGITUDE": 126.3480833333,
+				"WIND_DIRECT": 0,
+				"LATITUDE": 37.14955,
+				"WIND_SPEED": 0
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "선미도등대",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 0,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"MMSI_CODE": "994401015",
+				"LONGITUDE": 126.0777777778,
+				"LATITUDE": 37.2872222222
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "소청도등대",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 68,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"AIR_TEMPERATURE": -5.1,
+				"MMSI_CODE": "994401016",
+				"LONGITUDE": 124.7286111111,
+				"WIND_DIRECT": 297,
+				"AIR_PRESSURE": 1014,
+				"LATITUDE": 37.7608333333,
+				"WIND_SPEED": 10.3
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "목덕도등대",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 0,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"MMSI_CODE": "994401017",
+				"LONGITUDE": 125.7869444444,
+				"WIND_DIRECT": 316,
+				"AIR_PRESSURE": 1014,
+				"LATITUDE": 36.9286111111,
+				"WIND_SPEED": 13.9
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "인천항석탄부두A호등대",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 47,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"AIR_TEMPERATURE": -6.8,
+				"MMSI_CODE": "994401018",
+				"LONGITUDE": 126.5869444444,
+				"WIND_DIRECT": 318,
+				"AIR_PRESSURE": 1020,
+				"LATITUDE": 37.4383333333,
+				"WIND_SPEED": 4.6
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "소야도등대",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 64,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"AIR_TEMPERATURE": -4.8,
+				"MMSI_CODE": "994401019",
+				"LONGITUDE": 126.1938888889,
+				"WIND_DIRECT": 30,
+				"AIR_PRESSURE": 1019,
+				"LATITUDE": 37.2083333333,
+				"WIND_SPEED": 0.5
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "소연평도등대",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220111173000",
+				"MMAF_CODE": "102",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "994401020",
+				"LONGITUDE": 125.7177777778,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 37.6044444444,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "서포리남방등표",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 1,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"AIR_TEMPERATURE": -3.6,
+				"MMSI_CODE": "994401021",
+				"LONGITUDE": 126.0916666667,
+				"WIND_DIRECT": 289,
+				"AIR_PRESSURE": 1021,
+				"LATITUDE": 37.2136111111,
+				"WIND_SPEED": 10.8
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "북장자서등표",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 53,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"AIR_TEMPERATURE": -7,
+				"MMSI_CODE": "994401022",
+				"LONGITUDE": 126.4777777778,
+				"WIND_DIRECT": 329,
+				"AIR_PRESSURE": 1019,
+				"LATITUDE": 37.3294444444,
+				"WIND_SPEED": 9.8
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "초치암등표",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 0,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"AIR_TEMPERATURE": -5.9,
+				"MMSI_CODE": "994401023",
+				"LONGITUDE": 126.2227777778,
+				"WIND_DIRECT": 41,
+				"AIR_PRESSURE": 1022,
+				"LATITUDE": 37.3280555556,
+				"WIND_SPEED": 4.6
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "민어탄등표",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 44,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"AIR_TEMPERATURE": -4.7,
+				"MMSI_CODE": "994401024",
+				"LONGITUDE": 125.9252777778,
+				"WIND_DIRECT": 312,
+				"AIR_PRESSURE": 1023,
+				"LATITUDE": 37.125,
+				"WIND_SPEED": 9.3
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "인천항항로분기등부표",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 0,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"SURFACE_CURR_SPEED": 0.201,
+				"MMSI_CODE": "994401040",
+				"LONGITUDE": 126.45861111,
+				"WATER_TEMPER": 4.8,
+				"SURFACE_CURR_DRC": 98,
+				"LATITUDE": 37.33944444
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "고식이등표",
+				"MMAF_NM": "인천청",
+				"HUMIDITY": 54,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "102",
+				"AIR_TEMPERATURE": -6,
+				"MMSI_CODE": "994401039",
+				"LONGITUDE": 126.3030556,
+				"WIND_DIRECT": 338,
+				"AIR_PRESSURE": 1022,
+				"LATITUDE": 37.485,
+				"WIND_SPEED": 9.3
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "여초등표",
+				"MMAF_NM": "여수청",
+				"HUMIDITY": 57,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "103",
+				"AIR_TEMPERATURE": 1,
+				"MMSI_CODE": "994402955",
+				"LONGITUDE": 127.6990555556,
+				"WIND_DIRECT": 152,
+				"LATITUDE": 34.688,
+				"WIND_SPEED": 24
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "중결도등대",
+				"MMAF_NM": "여수청",
+				"HUMIDITY": 57,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "103",
+				"AIR_TEMPERATURE": -0.2,
+				"MMSI_CODE": "994402925",
+				"LONGITUDE": 127.2403055556,
+				"WIND_DIRECT": 41,
+				"AIR_PRESSURE": 1011,
+				"LATITUDE": 34.31375,
+				"WIND_SPEED": 16
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "광양항등표",
+				"MMAF_NM": "여수청",
+				"HUMIDITY": 42,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "103",
+				"AIR_TEMPERATURE": -0.9,
+				"MMSI_CODE": "994402917",
+				"LONGITUDE": 127.7597222222,
+				"WIND_DIRECT": 238,
+				"LATITUDE": 34.8819444444,
+				"WIND_SPEED": 9
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"HORIZON_VISIBL": 15.9,
+				"MMAF_NM": "여수청",
+				"HUMIDITY": 54,
+				"AIR_TEMPERATURE": 2.3,
+				"LONGITUDE": 127.9452777778,
+				"MMSI_NM": "여수해만중앙A호유도등부표",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "103",
+				"MMSI_CODE": "994403110",
+				"WIND_DIRECT": 303,
+				"WATER_TEMPER": 10.1,
+				"LATITUDE": 34.5947222222,
+				"WIND_SPEED": 20
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"HORIZON_VISIBL": 20,
+				"MMAF_NM": "울산청",
+				"HUMIDITY": 31,
+				"SURFACE_CURR_SPEED": 0.501,
+				"AIR_TEMPERATURE": 1.3,
+				"LONGITUDE": 129.436472222,
+				"AIR_PRESSURE": 1016,
+				"MMSI_NM": "울산항등부표",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "104",
+				"MMSI_CODE": "1000520",
+				"WIND_DIRECT": 155,
+				"WATER_TEMPER": 14.9,
+				"SURFACE_CURR_DRC": 123,
+				"LATITUDE": 35.363666667,
+				"WIND_SPEED": 11
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"HORIZON_VISIBL": 20,
+				"MMAF_NM": "울산청",
+				"HUMIDITY": 27,
+				"AIR_TEMPERATURE": 0.5,
+				"LONGITUDE": 129.399888889,
+				"AIR_PRESSURE": 1014,
+				"MMSI_NM": "울산항동방파제서단등대",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "104",
+				"MMSI_CODE": "1000519",
+				"WIND_DIRECT": 319,
+				"LATITUDE": 35.4665,
+				"WIND_SPEED": 10.4
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "울산항근치암남서방등부표",
+				"MMAF_NM": "울산청",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "104",
+				"SURFACE_CURR_SPEED": 0.02,
+				"MMSI_CODE": "1000507",
+				"LONGITUDE": 129.409638889,
+				"WATER_TEMPER": 13.3,
+				"SURFACE_CURR_DRC": 159,
+				"LATITUDE": 35.466777778
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "울산항동방파제파고부표",
+				"MMAF_NM": "울산청",
+				"DATETIME": "20220111180000",
+				"MMAF_CODE": "104",
+				"MMSI_CODE": "3000001",
+				"LONGITUDE": 129.403611111,
+				"LATITUDE": 35.452033
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMAF_NM": "대산청",
+				"HUMIDITY": 62,
+				"SURFACE_CURR_SPEED": 1.3,
+				"LONGITUDE": 126.3433333333,
+				"AIR_PRESSURE": 1023,
+				"MMSI_NM": "대산항제2항로제3호등부표",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "105",
+				"MMSI_CODE": "4422880",
+				"WIND_DIRECT": 210,
+				"SURFACE_CURR_DRC": 85,
+				"LATITUDE": 37.0416666667,
+				"WIND_SPEED": 16
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "신도타서등표",
+				"MMAF_NM": "대산청",
+				"HUMIDITY": 62,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "105",
+				"MMSI_CODE": "4402692",
+				"LONGITUDE": 126.15,
+				"WIND_DIRECT": 92,
+				"AIR_PRESSURE": 1021,
+				"LATITUDE": 36.895,
+				"WIND_SPEED": 23
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "옹도등대",
+				"MMAF_NM": "대산청",
+				"HUMIDITY": 56,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "105",
+				"MMSI_CODE": "994402651",
+				"LONGITUDE": 126.0083333333,
+				"WIND_DIRECT": 201,
+				"AIR_PRESSURE": 1016,
+				"LATITUDE": 36.6466666667,
+				"WIND_SPEED": 4
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "소녀암등표",
+				"MMAF_NM": "대산청",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "105",
+				"MMSI_CODE": "994402675",
+				"LONGITUDE": 126.4733333333,
+				"LATITUDE": 36.32
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "입파도등대",
+				"MMAF_NM": "평택청",
+				"HUMIDITY": 63,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "106",
+				"MMSI_CODE": "1120081",
+				"LONGITUDE": 126.539675,
+				"WIND_DIRECT": 239,
+				"AIR_PRESSURE": 1008,
+				"LATITUDE": 37.1085611111,
+				"WIND_SPEED": 10
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "무당서등표",
+				"MMAF_NM": "평택청",
+				"HUMIDITY": 56,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "106",
+				"MMSI_CODE": "1120127",
+				"LONGITUDE": 126.4162888889,
+				"WIND_DIRECT": 291,
+				"LATITUDE": 37.1561722222,
+				"WIND_SPEED": 11
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "(기상)외달도등표",
+				"MMAF_NM": "목포청",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220109024400",
+				"MMAF_CODE": "107",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440101004",
+				"LONGITUDE": 126.288611111,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 34.777861111,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "(기상)매물도등대",
+				"MMAF_NM": "목포청",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220109024400",
+				"MMAF_CODE": "107",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440101002",
+				"LONGITUDE": 125.685892,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 34.522435,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "(기상)대노록도등대",
+				"MMAF_NM": "목포청",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220109024100",
+				"MMAF_CODE": "107",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440101003",
+				"LONGITUDE": 125.987915,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 35.103018,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "(기상)홍도등대",
+				"MMAF_NM": "목포청",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220109024400",
+				"MMAF_CODE": "107",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440101006",
+				"LONGITUDE": 125.201797,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 34.714297,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "(기상)가거도등대",
+				"MMAF_NM": "목포청",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220109024400",
+				"MMAF_CODE": "107",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440101005",
+				"LONGITUDE": 125.09857,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 34.095377,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "(기상)계마항방파제등대",
+				"MMAF_NM": "목포청",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220109024400",
+				"MMAF_CODE": "107",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440101007",
+				"LONGITUDE": 126.403055556,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 35.39025,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "(기상)우세도등대",
+				"MMAF_NM": "목포청",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220109024400",
+				"MMAF_CODE": "107",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440101001",
+				"LONGITUDE": 125.908,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 34.791416667,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"HORIZON_VISIBL": 19.8,
+				"MMAF_NM": "군산청",
+				"HUMIDITY": 70,
+				"AIR_TEMPERATURE": -2.1,
+				"LONGITUDE": 126.52747,
+				"AIR_PRESSURE": 1020,
+				"MMSI_NM": "비응항서방파제남단등대",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "108",
+				"MMSI_CODE": "4406120",
+				"WIND_DIRECT": 324,
+				"LATITUDE": 35.9335269444,
+				"WIND_SPEED": 4.1
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "군산항남방파제등대",
+				"MMAF_NM": "군산청",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "108",
+				"MMSI_CODE": "4406109",
+				"LONGITUDE": 126.5129438889,
+				"LATITUDE": 35.97469
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "가진서등대",
+				"HORIZON_VISIBL": 19.8,
+				"MMAF_NM": "군산청",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "108",
+				"MMSI_CODE": "994403650",
+				"LONGITUDE": 125.99775,
+				"LATITUDE": 36.1058888889
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "역경등대",
+				"HORIZON_VISIBL": 12.2,
+				"MMAF_NM": "군산청",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "108",
+				"MMSI_CODE": "4406116",
+				"LONGITUDE": 126.5138333333,
+				"LATITUDE": 36.0361833333
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "십이동파도등대",
+				"MMAF_NM": "군산청",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "108",
+				"MMSI_CODE": "994403651",
+				"LONGITUDE": 126.2224197388,
+				"LATITUDE": 35.9894676208
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"HORIZON_VISIBL": 19.8,
+				"MMAF_NM": "군산청",
+				"HUMIDITY": 64,
+				"AIR_TEMPERATURE": -4.4,
+				"LONGITUDE": 126.43597,
+				"AIR_PRESSURE": 998,
+				"MMSI_NM": "군산연도등대",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "108",
+				"MMSI_CODE": "994403652",
+				"WIND_DIRECT": 36,
+				"LATITUDE": 36.08113,
+				"WIND_SPEED": 1.5
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"HORIZON_VISIBL": 19.8,
+				"MMAF_NM": "군산청",
+				"HUMIDITY": 58,
+				"AIR_TEMPERATURE": -3,
+				"LONGITUDE": 126.10705,
+				"AIR_PRESSURE": 1000,
+				"MMSI_NM": "상왕등도등대",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "108",
+				"MMSI_CODE": "994403654",
+				"WIND_DIRECT": 349,
+				"LATITUDE": 35.6621111111,
+				"WIND_SPEED": 7.71
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"HORIZON_VISIBL": 19.8,
+				"MMAF_NM": "군산청",
+				"HUMIDITY": 62,
+				"AIR_TEMPERATURE": -2.3,
+				"LONGITUDE": 126.37216,
+				"AIR_PRESSURE": 1019,
+				"MMSI_NM": "군산흑도등표",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "108",
+				"MMSI_CODE": "994403661",
+				"WIND_DIRECT": 344,
+				"LATITUDE": 35.82619,
+				"WIND_SPEED": 5.65
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "흑서등표",
+				"MMAF_NM": "군산청",
+				"HUMIDITY": 0,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "108",
+				"MMSI_CODE": "994403658",
+				"LONGITUDE": 126.3632778,
+				"LATITUDE": 35.61905556
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "흑암등표",
+				"HORIZON_VISIBL": 20,
+				"MMAF_NM": "마산청",
+				"HUMIDITY": 38,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "109",
+				"MMSI_CODE": "994401602",
+				"LONGITUDE": 128.6101944444,
+				"WIND_DIRECT": 257,
+				"AIR_PRESSURE": 1017,
+				"LATITUDE": 35.0402222222,
+				"WIND_SPEED": 8.2
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"HORIZON_VISIBL": 99999,
+				"MMAF_NM": "마산청",
+				"HUMIDITY": 99999,
+				"AIR_TEMPERATURE": 99999,
+				"LONGITUDE": 128.4763333333,
+				"AIR_PRESSURE": 99999,
+				"MMSI_NM": "고암등대",
+				"DATETIME": "20220111033100",
+				"MMAF_CODE": "109",
+				"MMSI_CODE": "994401606",
+				"WIND_DIRECT": 99999,
+				"WATER_TEMPER": 99999,
+				"SALINITY": 99999,
+				"WAVE_HEIGTH": 99999,
+				"LATITUDE": 34.498,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "견내량등표",
+				"MMAF_NM": "마산청",
+				"HUMIDITY": 26,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "109",
+				"MMSI_CODE": "994401605",
+				"LONGITUDE": 128.4736666667,
+				"WATER_TEMPER": 8.6,
+				"AIR_PRESSURE": 1018,
+				"SALINITY": 16.5,
+				"SURFACE_CURR_DRC": 0,
+				"LATITUDE": 34.885
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "고도등표",
+				"MMAF_NM": "마산청",
+				"HUMIDITY": 2,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "109",
+				"MMSI_CODE": "994401623",
+				"LONGITUDE": 128.0633333333,
+				"WIND_DIRECT": 313,
+				"AIR_PRESSURE": 1017,
+				"LATITUDE": 34.68,
+				"WIND_SPEED": 8.7
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "도동등대",
+				"MMAF_NM": "포항청",
+				"HUMIDITY": 93,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "110",
+				"AIR_TEMPERATURE": -1.3,
+				"MMSI_CODE": "994403582",
+				"LONGITUDE": 130.9194166667,
+				"WIND_DIRECT": 271,
+				"AIR_PRESSURE": 998,
+				"LATITUDE": 37.487,
+				"WIND_SPEED": 4.6
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "영일만항분리항로등부표(랜비)",
+				"MMAF_NM": "포항청",
+				"HUMIDITY": 30,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "110",
+				"SURFACE_CURR_SPEED": 0.041,
+				"AIR_TEMPERATURE": -1.2,
+				"MMSI_CODE": "994403579",
+				"LONGITUDE": 129.4766666667,
+				"WATER_TEMPER": 12.9,
+				"SURFACE_CURR_DRC": 138,
+				"LATITUDE": 36.0782777778
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "묵호등대",
+				"MMAF_NM": "동해청",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "111",
+				"MMSI_CODE": "994403800",
+				"LONGITUDE": 129.118553,
+				"LATITUDE": 37.554483
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"HORIZON_VISIBL": 99999,
+				"MMAF_NM": "동해청",
+				"HUMIDITY": 99999,
+				"AIR_TEMPERATURE": 99999,
+				"LONGITUDE": 129.144667,
+				"AIR_PRESSURE": 99999,
+				"MMSI_NM": "동해항남방파제등대",
+				"DATETIME": "20000101000000",
+				"MMAF_CODE": "111",
+				"MMSI_CODE": "994403808",
+				"WIND_DIRECT": 99999,
+				"LATITUDE": 37.49665,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "주문진항동방파제등대",
+				"MMAF_NM": "동해청",
+				"HUMIDITY": 30,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "111",
+				"AIR_TEMPERATURE": -2.1,
+				"MMSI_CODE": "994403810",
+				"LONGITUDE": 128.834711,
+				"WIND_DIRECT": 237,
+				"AIR_PRESSURE": 1015,
+				"LATITUDE": 37.885889,
+				"WIND_SPEED": 4
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"HORIZON_VISIBL": 19.8,
+				"MMAF_NM": "동해청",
+				"HUMIDITY": 16,
+				"AIR_TEMPERATURE": -0.7,
+				"LONGITUDE": 129.345192,
+				"AIR_PRESSURE": 1014,
+				"MMSI_NM": "임원항방파제등대",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "111",
+				"MMSI_CODE": "994403807",
+				"WIND_DIRECT": 12,
+				"LATITUDE": 37.224858,
+				"WIND_SPEED": 3
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "중뢰등표",
+				"MMAF_NM": "제주단",
+				"HUMIDITY": 68,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "112",
+				"AIR_TEMPERATURE": 1.3,
+				"MMSI_CODE": "994403901",
+				"LONGITUDE": 126.3225021362,
+				"WIND_DIRECT": 321,
+				"AIR_PRESSURE": 1018,
+				"LATITUDE": 33.797668457,
+				"WIND_SPEED": 15
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "김녕항서방파제등대",
+				"MMAF_NM": "제주단",
+				"HUMIDITY": 54,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "112",
+				"AIR_TEMPERATURE": 3.2,
+				"MMSI_CODE": "994403894",
+				"LONGITUDE": 126.7457962036,
+				"WIND_DIRECT": 328,
+				"AIR_PRESSURE": 1016,
+				"LATITUDE": 33.5683288574,
+				"WIND_SPEED": 19
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "우도등표",
+				"MMAF_NM": "제주단",
+				"HUMIDITY": 65,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "112",
+				"AIR_TEMPERATURE": 2.7,
+				"MMSI_CODE": "994403897",
+				"LONGITUDE": 126.9721984863,
+				"WIND_DIRECT": 353,
+				"AIR_PRESSURE": 1016,
+				"LATITUDE": 33.5144500732,
+				"WIND_SPEED": 19
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "방서등대",
+				"MMAF_NM": "제주단",
+				"HUMIDITY": 20,
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "112",
+				"AIR_TEMPERATURE": 1.7,
+				"MMSI_CODE": "994403895",
+				"LONGITUDE": 126.399597168,
+				"WIND_DIRECT": 335,
+				"AIR_PRESSURE": 1016,
+				"LATITUDE": 33.9215316772,
+				"WIND_SPEED": 15
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "개민포등대",
+				"MMAF_NM": "제주단",
+				"DATETIME": "20220111182000",
+				"MMAF_CODE": "112",
+				"MMSI_CODE": "994403896",
+				"LONGITUDE": 126.8479003906,
+				"LATITUDE": 33.3199501038
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMAF_NM": "진도소",
+				"HUMIDITY": 99999,
+				"SURFACE_CURR_SPEED": 99999,
+				"AIR_TEMPERATURE": 99999,
+				"LONGITUDE": 126.808294,
+				"AIR_PRESSURE": 99999,
+				"MMSI_NM": "완도항 유도등부표(기)",
+				"DATETIME": "20220109002700",
+				"MMAF_CODE": "113",
+				"MMSI_CODE": "440103006",
+				"WIND_DIRECT": 99999,
+				"WATER_TEMPER": 99999,
+				"SURFACE_CURR_DRC": 99999,
+				"LATITUDE": 34.2535,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "황제도등대(기)",
+				"MMAF_NM": "진도소",
+				"DATETIME": "20220109002700",
+				"MMAF_CODE": "113",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440103002",
+				"LONGITUDE": 127.08,
+				"WIND_DIRECT": 99999,
+				"WATER_TEMPER": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 34.1933,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "횡간도등대(기)",
+				"MMAF_NM": "진도소",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220109002700",
+				"MMAF_CODE": "113",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440103004",
+				"LONGITUDE": 126.6128,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 34.250497,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "여서도등대(기)",
+				"MMAF_NM": "진도소",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220109002700",
+				"MMAF_CODE": "113",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440103003",
+				"LONGITUDE": 126.918294,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 33.9877,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMAF_NM": "진도소",
+				"HUMIDITY": 99999,
+				"SURFACE_CURR_SPEED": 99999,
+				"AIR_TEMPERATURE": 99999,
+				"LONGITUDE": 126.30525,
+				"AIR_PRESSURE": 99999,
+				"MMSI_NM": "명량수도조류신호표지",
+				"DATETIME": "20220108233500",
+				"MMAF_CODE": "113",
+				"MMSI_CODE": "MR",
+				"WIND_DIRECT": 99999,
+				"SURFACE_CURR_DRC": 99999,
+				"LATITUDE": 34.57191667,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "하조도등대(기)",
+				"MMAF_NM": "진도소",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220109002700",
+				"MMAF_CODE": "113",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440103005",
+				"LONGITUDE": 126.087797,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 34.3111,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "어룡도등대(기)",
+				"MMAF_NM": "진도소",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220109002700",
+				"MMAF_CODE": "113",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440103007",
+				"LONGITUDE": 126.473197,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 34.2868,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMAF_NM": "진도소",
+				"HUMIDITY": 99999,
+				"SURFACE_CURR_SPEED": 99999,
+				"AIR_TEMPERATURE": 99999,
+				"LONGITUDE": 126.0905556,
+				"AIR_PRESSURE": 99999,
+				"MMSI_NM": "장죽수도조류신호표지",
+				"DATETIME": "20220108234500",
+				"MMAF_CODE": "113",
+				"MMSI_CODE": "JJ",
+				"WIND_DIRECT": 99999,
+				"SURFACE_CURR_DRC": 99999,
+				"LATITUDE": 34.31472222,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}{
+	"result": {
+		"recordset": [
+			{
+				"MMSI_NM": "녹도등대(기)",
+				"MMAF_NM": "진도소",
+				"HUMIDITY": 99999,
+				"DATETIME": "20220109002700",
+				"MMAF_CODE": "113",
+				"AIR_TEMPERATURE": 99999,
+				"MMSI_CODE": "440103001",
+				"LONGITUDE": 126.3205030556,
+				"WIND_DIRECT": 99999,
+				"AIR_PRESSURE": 99999,
+				"LATITUDE": 34.5593969444,
+				"WIND_SPEED": 99999
+			}
+		],
+		"message": "",
+		"status": "OK"
+	}
+}

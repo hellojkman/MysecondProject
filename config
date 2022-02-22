@@ -1,0 +1,13 @@
+host myaws
+	HostName 15.164.114.182
+	User root
+	IdentityFile ~/.ssh/myaws_key.pem
+
+		   
+
+Host ubuntu
+	HostName 13.209.185.227
+	User root
+	IdentityFile ~/.ssh/myaws_key.pem
+
+			  
